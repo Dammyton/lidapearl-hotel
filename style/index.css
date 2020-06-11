@@ -1,0 +1,801 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.head{
+    background: 
+    linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0,0,0,0.5)
+        ),
+    url("../images/Rectangle\ 12.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    /*width: 100%;*/
+}
+
+.head .logo{
+    background-image: url(../images/logo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 90px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.header{
+    width: 100%;
+    padding-bottom: 10px;
+    background-image:   linear-gradient(rgba(0, 0, 0, 0.5) 0px, rgba(0, 0, 0, 0.5) 100%),url(../images/Rectangle\ 12.jpg) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: left !important;
+}
+
+.logo .p-1{
+    font-weight: bold;
+    font-family: 'Cardo', serif;
+    font-size: 28px;
+}
+nav p{
+    margin:0px !important;
+}
+nav .p-1, nav .p-2{
+    padding:0px !important;
+}
+.logo .p-2{
+    font-family: 'Dancing Script', cursive;
+    font-size: 17px;
+}
+
+.head .nav{
+    padding-top: 10px;
+    padding-right: 20px;
+}
+
+.head .nav .menu{
+border: 1px solid #F8F8F8;
+width: 40px;
+height: 30px;
+display: block;
+cursor: pointer;
+margin-right: 10px;
+float: right;
+}
+
+.head .nav .menu .dash{
+width: 30px;
+height: 3px;
+margin: 5px auto;
+background-color: #F8F8F8;
+}
+
+.head .nav .content{
+overflow: hidden;
+position: relative;
+left: 55px;
+top: 30px;
+display: none;
+}
+
+.head .nav .content a{
+color: black;
+padding: 18px 20px;
+position: relative;
+display: block;
+text-align: right;
+font-family: helvetica;
+font-size: 12px;
+color: #fff;
+transition: all .5s ease;
+text-decoration: none;
+}
+
+.head .nav .content a:hover{
+text-decoration: underline;
+text-decoration-color: #DB9200;
+transition: all .5s ease;
+}
+
+.head .nav .content a #book{
+width: 100px;
+height: 20px;
+background-color: #DB9200;
+padding-right: 20px;
+padding-top:5px;
+margin-bottom: 40px;
+border-radius: 2px;
+color: #fff;
+float: right;
+}
+.img-hotels {
+	float: right;
+	margin-right: 3px;
+	position: relative;
+	top: 150px;
+}
+
+.main-article h2{
+	/*line-height: 40px;*/
+	color: #fff;
+	font-family: Source Sans Pro;
+	font-weight: bold; 
+    margin-bottom: 30px;
+    width: 260px;
+    font-size: 25px;
+}
+
+span {
+	color: #DB9200;
+}
+
+.article-par {
+    width: 270px;
+	color: #fff;
+	font-family: Source Sans Pro;
+	margin-bottom: 50px;
+    font-size: 20px;
+    text-align: justify;
+    
+}
+
+.line {
+	width: 10px;
+	margin-bottom: 40px;
+	border: 3px solid #DB9200;
+}
+
+.line2 {
+	width: 7%;
+    position: relative;
+    bottom: 40px;
+	border: 1px solid #fff;
+}
+
+.button2 {
+	background-color: #DB9200;
+    border-bottom: #209e8b;
+    color: white;
+    border: none;
+    padding: 10px 32px;
+    font-size: 16px;
+    text-align: center;
+    box-shadow: 0 12px 16px 0
+    rgba(196, 143, 143, 0.2);
+    cursor: pointer;
+}
+
+.button2:hover {
+	font-weight: bold;
+	background-color: #db9200ad;
+}
+
+.main-article {
+	position: relative;
+	top: 250px;
+	margin-left: 20px;
+}
+
+
+
+
+.footer{
+width: 100%;
+background-color: #0C242E;
+padding-bottom: 20px;
+}
+
+.footer .first, .second, .third{
+margin-left: 20px;
+}
+
+
+.footer .first p{
+font-family: helvetica;
+color: #fff;
+font-size: 12px;
+margin-left: 65px;
+margin-top: -30px
+}
+
+.footer .first img{
+margin-top: 40px;
+margin-left: 25px;
+}
+
+.footer .second .logo{
+background-image: url(../images/logo.png);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+width: 100px;
+height: 70px;
+margin: 30px 0 0 60px;
+}
+
+.footer .second img{
+margin: 0 20px 0 20px;
+}
+
+
+.footer .third h5{
+clear: both;
+font-family: helvetica;
+font-size: 15px;
+font-weight: bold;
+color: #DB9200;
+margin: 30px 0 0 150px;
+}
+
+.footer .third ul{
+list-style-type: none;
+font-family: helvetica;
+color: #fff;
+font-size: 12px;
+margin-left: 150px;
+margin-bottom: 50px;
+}
+
+.footer .third ul li{
+margin: 10px 0 10px 0;
+color: #fff;
+font-family: helvetica;
+font-size: 12px;
+}
+
+.footer .third ul a{
+text-decoration: none;
+}
+
+.footer .bottom{
+color: #fff;
+font-family: helvetica;
+font-size: 12px;
+text-align: center;
+}
+
+
+
+
+@media screen and (min-width: 700px)
+{
+*{
+    max-width: 1150px;
+}
+.head .logo{
+    width: 100px;
+    height: 60px;
+}
+
+.head .nav .content a{
+    font-size: 15px;
+}
+
+.head .nav .content a #book{
+    width: 110px;
+}
+}
+
+
+
+
+
+@media screen and (min-width: 1150px)
+{
+*{
+    max-width: 1500px;
+}
+
+.head .nav{
+    margin-left: 30px;
+}
+.head .nav .menu{
+    display: none;
+}
+
+.head .nav .content{
+    display: block;
+    top: 0;
+    text-align: right;
+    margin-right: 50px;
+}
+
+.head .nav .content a{
+    display: inline-block;
+}
+
+.head .nav .content a #book{
+    float: none;
+}
+
+.text2, .text3{
+   float: left;
+}
+
+.text2 .line, .text2 .goldline{
+   display: block;
+}
+
+.text3 .line, .text3 .goldline{
+   display: block;
+}
+
+
+.rooms{
+   float: right;
+   margin-left: 70px;
+   margin-right: 70px;
+}
+
+.promo{
+   clear: both;
+   padding-top: 30px;
+}
+
+.footer .first, .second, .third{
+       float: left;
+       margin: 0 100px 0 100px;
+}
+
+.footer .bottom{
+    clear: both;
+    padding-top: 50px;
+}
+
+
+
+.footer{
+    display: inline-block;
+    margin-top: 20px;
+}
+
+
+}
+
+
+
+
+/* CONTENT AREA */
+#content-area{
+    padding: 50px 0px;
+}
+#content-area #headtext h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 21px;
+    font-weight: 700;
+    padding: 5px;
+}#content-area #headtext h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 21px;
+    font-weight: 700;
+    padding: 5px;
+    width: 100%;
+}
+#content-area #headtext h1 span{
+    color: #db9200;
+    width: 100%;
+}
+#content-area p{
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: 100;
+}
+#line1{
+    max-width: 173px;
+    background-color: teal;
+    height: 1px;
+}
+#line1::before{
+    content: '';
+    max-width: 29px;
+    background-color: #db9200;
+    height: 3px;
+    display: block;
+}
+#line2{
+    max-width: 173px;
+    background-color: teal;
+    height: 1px;
+}
+#line2::before{
+    content: '';
+    max-width: 29px;
+    background-color: #db9200;
+    height: 3px;
+    display: block;
+}
+#line3{
+    max-width: 173px;
+    background-color: teal;
+    height: 1px;
+    transform: rotatex(180deg) translate(25px, -110px);
+}
+#line3::before{
+    content: '';
+    max-width: 29px;
+    background-color: #db9200;
+    height: 3px;
+    display: block;
+}
+
+#cont-imgs #img1{
+    max-width:100%;
+}
+#cont-imgs #img2{
+    width: 400px;
+    height: 250px;
+    transform: translate(530px, -50px);
+}
+#cont-imgs #img3{
+    width: 300px;
+    height: 400px;
+    transform: translate(-70px, 20px);
+}
+/* ABout Hotel Area */
+.about-hotel{
+    position: relative;
+    background-color: #0c242e;
+    padding:50px 0px;
+}
+.about-hotel #vid{
+    width: 100%;
+}
+.about-hotel #abouttext h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 21px;
+    font-weight: 700;
+    
+}
+.about-hotel #abouttext h1 span{
+    color: #db9200;
+    width: 99%;
+}
+.about-hotel p{
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+}
+/* Read more btn */
+.about-hotel #read-more-btn button{
+    background-color: rgba(255, 255, 255, 0);
+    border: 0px solid black;
+    padding: 5px;
+    color: white;
+    position: relative;
+    font-size: 18px;
+    transition: all 300ms;
+}
+.about-hotel #read-more-btn button:hover{
+    background-color: #db9200;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.about-hotel #read-more-btn img{
+    color: #db9200;
+    border-radius: 300px;
+    width: 20px;
+    height: 20px;
+    border-radius: 300px;
+    padding: 4px;
+    border: 1px solid #db9200;
+    position: relative;
+    transition: all 300ms;
+}
+.about-hotel #read-more-btn img:hover{
+    background-color: #db9200;
+    padding: 4px;
+}
+
+/* Dining */
+.about-hotel #first-img{
+    color: white;
+    font-family: sans-serif;
+    font-weight: 10;
+    font-size: 13px;
+    text-align: center;
+    padding: 20px;
+    border: 3px solid #db9200;
+    max-width: 90px;
+    height: 120px;
+    position: relative;
+    transform: translate(960px, -607px);
+}
+.about-hotel #first-img img{
+    padding: 5px;
+}
+.about-hotel #first-img h2{
+    padding: 5px;
+}
+/* Relaxation */
+.about-hotel #second-img{
+    color: white;
+    font-family: sans-serif;
+    font-weight: 10;
+    font-size: 13px;
+    text-align: center;
+    padding: 20px;
+    border: 3px solid #db9200;
+    width: 90px;
+    height: 120px;
+    position: relative;
+    transform: translate(1065px, -640px);
+}
+.about-hotel #second-img img{
+    padding: 5px;
+}
+.about-hotel #second-img h2{
+    padding: 5px;
+}
+/* Luxirious */
+.about-hotel #third-img{
+    color: white;
+    font-family: sans-serif;
+    font-weight: 10;
+    font-size: 13px;
+    text-align: center;
+    padding: 20px;
+    border: 3px solid #db9200;
+    width: 90px;
+    height: 120px;
+    position: relative;
+    transform: translate(1169px, -940px);
+}
+.about-hotel #third-img img{
+    padding: 5px;
+}
+.about-hotel #third-img h2{
+    padding: 5px;
+}
+/* Review Area */
+#review {
+    width: 100%; 
+   padding:40px 0px;
+}
+#review #abouttext h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 21px;
+    font-weight: 700;
+    width: 100%;
+}
+#review #abouttext h1 span{
+    color: #db9200;
+    width: 99%;
+}
+#review p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    max-width: 100%;
+    font-weight: 100;
+}
+#coalition{
+    margin-top: 30px;
+}
+#coalition1{
+    display: flex;
+    font-size: 26px;
+    text-align: left;
+    margin-left: -160px;
+}
+#coalition1 p{
+    margin-left: 160px;
+}
+#coalition1 p span{
+    color: #db9200;
+    font-size: 48px;
+    font-weight: 700;
+}
+#coalition2{
+    display: flex;
+    font-size: 26px;
+    text-align: left;
+    margin-left: -60px;
+    margin-top: 30px;
+}
+#coalition2 p{
+    margin-left: 60px;
+}
+#coalition2 p span{
+    color: #db9200;
+    font-size: 48px;
+    font-weight: 700;
+}
+#review-cards{
+    transform: translate(600px, -300px);
+    width: 700px;
+    height: 200px;
+}
+/* Samuel Mathews */
+#review-cards #samuel-card{
+    padding: 20px;
+    width: 348px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.116);
+    height: 390px;
+}
+#review-cards #samuel-card h3{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    color: #db9200;
+}
+#review-cards #samuel-card h4{
+    margin-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+#review-cards #samuel-card img{
+    margin: 40px;
+    margin-left: 50px;
+}
+#review-cards #samuel-card h5{
+    transform: translate(120px, -95px);
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Jadesola Agunbiade */
+#review-cards #jadesola-card{
+    padding: 20px;
+    width: 369.4px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.116);
+    height: 450px;
+    transform: translate(200px, -450px);
+}
+#review-cards #jadesola-card h3{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    color: #db9200;
+}
+#review-cards #jadesola-card h4{
+    margin-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+#review-cards #jadesola-card img{
+    margin: 40px;
+    margin-left: 50px;
+}
+#review-cards #jadesola-card h5{
+    transform: translate(160px, -115px);
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Arrrows */
+#arrows{
+    display: flex;
+    transform: translate(498.5px, -490px);
+    width: 110px;
+}
+#arrows #left{
+    width: 55px;
+    height: 40px;
+    background-color: #0c242e;
+    cursor: pointer;
+}
+#arrows #left img{
+   transform: rotateY(180deg) translate(-12px, 5px);
+   border-radius: 203px;
+   width: 30px;
+   height: 30px;
+}
+#arrows #right{
+    width: 55px;
+    height: 40px;
+    background-color: #db9200;
+    cursor: pointer;
+}
+#arrows #right img{
+    transform: translate(12px, 5px);
+    border-radius: 203px;
+    width: 30px;
+    height: 30px;
+ }
+ /* Footer */
+ footer{
+     height: 500px;
+     background-color: #0c242e;
+ }
+#location{
+    display: inline-flex;
+    transform: translate(133px, 80px);
+    color: white;
+}
+#location img{
+    padding: 15px;
+}
+#location p{
+    padding: 10px;
+}
+#mail{
+    display: inline-flex;
+    transform: translate(-170px, 160px);
+    color: white;
+}
+#mail img{
+    padding: 15px;
+}
+#mail p{
+    padding: 10px;
+}
+#phone{
+    display: inline-flex;
+    transform: translate(-460px, 250px);
+    color: white;
+}
+#phone img{
+    padding: 15px;
+}
+#phone p{
+    padding: 10px;
+}
+#logo{
+    font-size: 32px;
+    color: #db9200;
+    text-align: center;
+	margin-top: 40px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#logo p span{
+    color: white;
+	margin-left: -70px;
+	font-family: 'Dancing Script', cursive;
+}
+#socials{
+    justify-content: center;
+    display: flex;  
+    margin-top: 50px;
+}
+#socials img{
+    margin: 20px;
+}
+/* Quick link */
+#nav{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #db9200;
+    transform: translate(-130px, -205px);
+    text-align: left;
+}
+#nav #ul{
+    text-align: right;
+}
+#nav #ul h2{
+    margin-bottom: 30px;
+}
+#li{
+    list-style: none;
+    text-align: right;
+    margin-bottom: 30px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#copyright{
+    color: white;
+    margin-top: -130px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#copyright span{
+    color: #db9200;
+}
+
+
+/**/
+@media (min-width: 768) {
+	
+}
